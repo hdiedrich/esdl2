@@ -1,7 +1,9 @@
 ESDL2
 =====
 
-SDL2 Erlang NIF.
+SDL2 Erlang NIFs
+
+SDL provides cross-platform low level access to graphics, audio, keyboard, mouseand joystick hardware via OpenGL and Direct3D. This is an Erlang binding. http://www.libsdl.org/
 
 Status
 ------
