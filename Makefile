@@ -37,6 +37,10 @@ dot:    ebin
 rose:   ebin
 	erlc -o examples/rose examples/rose/*.erl
 	cd examples/rose && ./start.sh
+planets: ebin
+	erlc -o examples/planets examples/planets/*.erl
+	cd examples/planets && ./start.sh
+
 
 clean:
 	@rm -f *.swp
